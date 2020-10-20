@@ -1,16 +1,15 @@
 const inquirer = require ('inquirer');
 const fs = require ('fs');
-const util = require ('util')
-const writeFileAsync = util.promisify(fs.writeFile);
-
-//Create an array of questions for user
-
-function promptUser() {
-    return inquirer.prompt ([
+const questions = [     
         {
             type: 'input',
             message: 'What is the name of you project?',
             name: 'title'
+        },
+        {
+            type: 'input',
+            message: 'input badge code:',
+            name: 'badge'
         },
         {
             type: 'input',
@@ -50,8 +49,8 @@ function promptUser() {
         },
         {
             type: 'input',
-            message: 'Who is to be credited for this work?', 
-            name: 'credit'
+            message: 'Who are the authors?', 
+            name: 'authors'
         },
         {
             type: 'input',
@@ -63,12 +62,37 @@ function promptUser() {
             message: 'What is your email address?',
             name: 'email'
         },
-    ]);
-}
-promptUser()
-// function generateReadMe(response) {
-//     return
-// ## ${response.title}
+        {
+            type: 'input',
+            message: 'Enter the URL of your application screen shot here.',
+            name: 'screenshot'
+        },
+        {
+            type: 'input',
+            message: 'Write a table of contents seperated by commas here.',
+            name: 'toc'
+        },
+    ];
 
-// # 
-// }
+console.clear();
+
+inquirer.prompt(questions).then(response => {
+
+    fs.appendFileSync("README.md", ("# " + response.title)  + '\n', function(err) {
+        if (err) {
+            return console.log(err);
+        }        
+    });
+
+    fs.appendFileSync("README.md", ('\n' + response.badge)  + '\n', function(err) {
+        if (err) {
+            return console.log(err);
+        }        
+    });
+
+    fs.appendFileSync("README.md", ("## Description" + '\n' + response.description)  + '\n', function(err) {
+        if (err) {
+            return console.log(err);
+        }        
+    });
+});
