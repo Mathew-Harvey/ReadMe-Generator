@@ -95,4 +95,13 @@ inquirer.prompt(questions).then(response => {
             return console.log(err);
         }        
     });
+
+    fs.appendFileSync("README.md", ("## Table of Contentsc" + '\n' + '-' + response.toc.split(" ,").join('\n' + '- ')) + '\n', function(err) {
+        if (err) {
+            return console.log(err);
+        }        
+    });
+    
+
+
 });
