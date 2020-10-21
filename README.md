@@ -1,4 +1,4 @@
-# README Generator
+# ReadMe Generator
 ![GitHub followers](https://img.shields.io/github/followers/mathew-harvey?style=social)
 
 ![License type](https://img.shields.io/badge/License-MIT-Blue)
@@ -35,4 +35,44 @@ Please feel free to contact me with any questions you may have:
 
 ### Email: mathewharvey@gmail.com
 ## 🙏 Application ScreenShots
-![Screen Shot](/assets/temp.jpg)
+![Screen Shot](/assets/screenshot1.jpg)
+# ;laksdjf;laksdjf
+![GitHub followers](https://img.shields.io/github/followers/mathew-harvey?style=social)
+
+![License type](https://img.shields.io/badge/License-MIT-Blue)
+
+## Table of Contents
+- [Description](##Description)
+- [Motivation](#Movtivation)
+- [Installation Instructions](#Installation%20Instructions)
+- [Usage](#Usage)
+- [License](#License)
+- [How to Contribute](#How%20to%20Contribute)
+- [Authors](#Authors)
+- [Questions](#Questions)
+- [Application ScreenShots](#Application%20ScreenShots)
+## Demonstration
+![Demo Video](/assets/readmeGeneratorPreview.gif)
+## 🧐 Description
+a;lskdfja;lksdjf
+## 🚀 Motivation
+;alksdjf;laksdjf
+## 🛠️ Installation Instructions
+a;lskdf;alskdjf
+## Usage
+a;lskdf;alksdfj
+## License
+This application is licensed under: MIT
+## 🍰 How to Contribute
+a;lskdfja;lksdfj
+## ✨ Authors
+;alskdjf
+## 💻 Questions
+Please feel free to contact me with any questions you may have: 
+
+
+### GitHub: http:/https://github.com/mathew-harvey
+
+### Email: a;lsdkfj@a;lksdjf.com
+## 🙏 Application ScreenShots
+![Screen Shot](/assets/screenshot1.jpg)

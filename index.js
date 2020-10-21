@@ -67,6 +67,11 @@ const questions = [
         message: 'Enter the file name (FILENAME.jpg) of your application screen shot here. INSTRUCTIONS: Please upload a .jpg screen shot to the /assets folder of your root directory and past the file and name here:' ,
         name: 'screenshot'
     },
+    {
+        type: 'input',
+        message: 'Enter the file name (FILENAME.gif) of your application video demo here. INSTRUCTIONS: Please upload a .gif to the /assets folder of your root directory and past the file and name here:' ,
+        name: 'demo'
+    },
 
 ];
 
@@ -91,10 +96,16 @@ inquirer.prompt(questions).then(response => {
             return console.log(err);
         }
     });
-    //TODO
+ 
     fs.appendFileSync("README.md", ("## Table of Contents" + '\n' + '- [Description](##Description)' + '\n' + '- [Motivation](#Movtivation)' + '\n' +
         '- [Installation Instructions](#Installation%20Instructions)' + '\n' + '- [Usage](#Usage)' + '\n' + '- [License](#License)' + '\n' + '- [How to Contribute](#How%20to%20Contribute)' +
         '\n' + '- [Authors](#Authors)' + '\n' + '- [Questions](#Questions)' + '\n' + '- [Application ScreenShots](#Application%20ScreenShots)') + '\n', function (err) {
+        if (err) {
+            return console.log(err);
+        }
+    });
+
+    fs.appendFileSync("README.md", ("## Demonstration" +  '\n' + "![Demo Video](/assets/" + response.demo + ")") + '\n', function (err) {
         if (err) {
             return console.log(err);
         }
