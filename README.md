@@ -21,7 +21,7 @@ Use this readme generator to easily generate functional readme's like this one! 
 ## Motivation 🚀 
 I wanted a tool to generate standardised readme.md files for my repo, so developed this node.js application.
 ## Installation 🛠️ 
-1. Clone the repository, ```git clone https://github.com/Mathew-Harvey/ReadMe-Generator.git ```, 2. Change the working directory ```cd github-profile-ReadMe-Generator```, 3. Install dependencies ```npm install ```, ```inquirer install ```, and ```fs install ```, 4. Run the app ```node index.js``` , 🌟 You are all set!
+1. Clone the repository, ```git clone https://github.com/Mathew-Harvey/ReadMe-Generator.git ```, 2. Change the working directory ```cd github-profile-ReadMe-Generator```, 3. Install dependencies ```npm install ```, ```inquirer install ```, and ```fs install ```, 4. Run the app ```node index.js``` , You are all set!
 ## Usage 🏃‍
 Run the node index.js generate command, follow the prompts and a README file will be generated for you.
 ## License 🎓
