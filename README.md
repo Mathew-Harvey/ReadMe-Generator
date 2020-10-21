@@ -4,16 +4,16 @@
 ![License type](https://img.shields.io/badge/License-MIT-Blue)
 
 ## Table of Contents
-- [Demo](##💻%20Demo)
-- [Description](##🧐%20Description)
-- [Motivation](#🚀%20Motivation)
-- [Installation](#🛠️%20Installation)
-- [Usage](#🏃‍♀️%20Usage)
-- [License](#🎓%20License)
-- [How to Contribute](#🍰%20How%20to%20Contribute)
-- [Authors](#✨%20Authors)
-- [Questions](#🤔%20Questions)
-- [Application ScreenShots](#📸%20Application%20ScreenShots)
+- [Demo](##-💻%20Demo)
+- [Description](##-🧐%20Description)
+- [Motivation](#-🚀%20Motivation)
+- [Installation](#-🛠️%20Installation)
+- [Usage](#-🏃‍♀️%20Usage)
+- [License](#-🎓%20License)
+- [How to Contribute](#-🍰%20How%20to%20Contribute)
+- [Authors](#-✨%20Authors)
+- [Questions](#-🤔%20Questions)
+- [Application ScreenShots](#-📸%20Application%20ScreenShots)
 ## 💻 Demo
 ![Demo Video](/assets/readmeGeneratorPreview.gif)
 ## 🧐 Description
