@@ -4,8 +4,8 @@
 ![License type](https://img.shields.io/badge/License-MIT-Blue)
 
 ## Table of Contents
-- [Demo](##-💻%20Demo)
-- [Description](##-🧐%20Description)
+- [Demo](#-💻%20Demo)
+- [Description](#-🧐%20Description)
 - [Motivation](#-🚀%20Motivation)
 - [Installation](#-🛠️%20Installation)
 - [Usage](#-🏃‍♀️%20Usage)
