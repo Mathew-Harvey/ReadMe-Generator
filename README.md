@@ -10,7 +10,7 @@
 - [Installation](#-🛠️%20Installation)
 - [Usage](#-🏃‍♀️%20Usage)
 - [License](#-🎓%20License)
-- [How to Contribute](#-How%20to%20Contribute)
+- [How to Contribute](#How%20to%20Contribute-)
 - [Authors](#-✨%20Authors)
 - [Questions](#-🤔%20Questions)
 - [Application ScreenShots](#-📸%20Application%20ScreenShots)
@@ -26,7 +26,7 @@ I wanted a tool to generate standardised readme.md files for my repo, so develop
 Run the node index.js generate command, follow the prompts and a README file will be generated for you.
 ## 🎓 License
 This application is licensed under: MIT
-## 🍰 How to Contribute
+## How to Contribute 🍰 
 Create an issue or pull-request. You are also very welcome to throw me a message at @Mathew-Harvey
 ## ✨ Authors
 Mathew Harvey
