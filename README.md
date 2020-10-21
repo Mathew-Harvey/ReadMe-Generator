@@ -10,7 +10,7 @@
 - [Installation](#-🛠️%20Installation)
 - [Usage](#-🏃‍♀️%20Usage)
 - [License](#-🎓%20License)
-- [How to Contribute](#How%20to%20Contribute-)
+- [How to Contribute](#How-to-Contribute-)
 - [Authors](#-✨%20Authors)
 - [Questions](#-🤔%20Questions)
 - [Application ScreenShots](#-📸%20Application%20ScreenShots)
