@@ -97,63 +97,63 @@ inquirer.prompt(questions).then(response => {
         }
     });
  
-    fs.appendFileSync("README.md", ("## Table of Contents" + '\n' + '- [Demo](##💻%20Demo)'+ '\n' + '- [Description](##🧐%20Description)' + '\n' + '- [Motivation](#🚀%20Motivation)' + '\n' +
-        '- [Installation](#🛠️%20Installation)' + '\n' + '- [Usage](#🏃‍♀️%20Usage)' + '\n' + '- [License](#🎓%20License)' + '\n' + '- [How to Contribute](#🍰%20How%20to%20Contribute)' +
-        '\n' + '- [Authors](#✨%20Authors)' + '\n' + '- [Questions](#🤔%20Questions)' + '\n' + '- [Application ScreenShots](#📸%20Application%20ScreenShots)') + '\n', function (err) {
+    fs.appendFileSync("README.md", ("## Table of Contents" + '\n' + '- [Demo](##Demo-)'+ '\n' + '- [Description](##Description-)' + '\n' + '- [Motivation](#Motivation-)' + '\n' +
+        '- [Installation](#Installation-)' + '\n' + '- [Usage](#Usage-)' + '\n' + '- [License](#License-)' + '\n' + '- [How to Contribute](#How-to-Contribute-)' +
+        '\n' + '- [Authors](#Authors-)' + '\n' + '- [Questions](#Questions-)' + '\n' + '- [Application ScreenShots](#Application-ScreenShots-)') + '\n', function (err) {
         if (err) {
             return console.log(err);
         }
     });
 
-    fs.appendFileSync("README.md", ("## 💻 Demo" +  '\n' + "![Demo Video](/assets/" + response.demo + ")") + '\n', function (err) {
+    fs.appendFileSync("README.md", ("## Demo 💻" +  '\n' + "![Demo Video](/assets/" + response.demo + ")") + '\n', function (err) {
         if (err) {
             return console.log(err);
         }
     });
 
-    fs.appendFileSync("README.md", ("## 🧐 Description" + '\n' + response.description) + '\n', function (err) {
+    fs.appendFileSync("README.md", ("## Description 🧐" + '\n' + response.description) + '\n', function (err) {
         if (err) {
             return console.log(err);
         }
     });
 
-    fs.appendFileSync("README.md", ("## 🚀 Motivation" + '\n' + response.motivation) + '\n', function (err) {
+    fs.appendFileSync("README.md", ("## Motivation 🚀" + '\n' + response.motivation) + '\n', function (err) {
         if (err) {
             return console.log(err);
         }
     });
 
-    fs.appendFileSync("README.md", ("## 🛠️ Installation" + '\n' + response.installation) + '\n', function (err) {
+    fs.appendFileSync("README.md", ("## Installation 🛠️" + '\n' + response.installation) + '\n', function (err) {
         if (err) {
             return console.log(err);
         }
     });
 
-    fs.appendFileSync("README.md", ("## 🏃‍♀️ Usage" + '\n' + response.usage) + '\n', function (err) {
+    fs.appendFileSync("README.md", ("## Usage 🏃‍♀️" + '\n' + response.usage) + '\n', function (err) {
         if (err) {
             return console.log(err);
         }
     });
 
-    fs.appendFileSync("README.md", ("## 🎓 License" + '\n' + "This application is licensed under: " + response.license) + '\n', function (err) {
+    fs.appendFileSync("README.md", ("## License 🎓" + '\n' + "This application is licensed under: " + response.license) + '\n', function (err) {
         if (err) {
             return console.log(err);
         }
     });
 
-    fs.appendFileSync("README.md", ("## 🍰 How to Contribute" + '\n' + response.contribution) + '\n', function (err) {
+    fs.appendFileSync("README.md", ("## How to Contribute 🍰" + '\n' + response.contribution) + '\n', function (err) {
         if (err) {
             return console.log(err);
         }
     });
 
-    fs.appendFileSync("README.md", ("## ✨ Authors" + '\n' + response.authors) + '\n', function (err) {
+    fs.appendFileSync("README.md", ("## Authors ✨" + '\n' + response.authors) + '\n', function (err) {
         if (err) {
             return console.log(err);
         }
     });
 
-    fs.appendFileSync("README.md", ("## 🤔 Questions" + '\n' + "Please feel free to contact me with any questions you may have: " + '\n' ) + '\n', function (err) {
+    fs.appendFileSync("README.md", ("## Questions 🤔" + '\n' + "Please feel free to contact me with any questions you may have: " + '\n' ) + '\n', function (err) {
         if (err) {
             return console.log(err);
         }
@@ -171,7 +171,7 @@ inquirer.prompt(questions).then(response => {
         }
     });
 
-    fs.appendFileSync("README.md", ("## 📸 Application ScreenShots" + '\n' + "![Screen Shot](/assets/" + response.screenshot + ")") + '\n', function (err) {
+    fs.appendFileSync("README.md", ("## Application ScreenShots 📸" + '\n' + "![Screen Shot](/assets/" + response.screenshot + ")") + '\n', function (err) {
         if (err) {
             return console.log(err);
         }
