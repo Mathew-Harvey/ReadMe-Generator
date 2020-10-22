@@ -17,7 +17,7 @@
 ## Demo 💻 
 ![Demo Video](/assets/readmeGeneratorPreview.gif)
 ## Discussion Video
-Link to video of me discussing the code: https://youtu.be/jbw1IIfiXP0
+Link to video of me discussing the code: https://youtu.be/fBGYge2WbxU
 ## Description 🧐
 Use this readme generator to easily generate functional readme's like this one! On Github, the README file is like the landing page of your website because it is the first thing visitors see. You want to make a good first impression.
 ## Motivation 🚀 
